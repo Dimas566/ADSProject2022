@@ -92,7 +92,7 @@ namespace ADSProject.Controllers
             }
             catch (Exception)
             {
-
+                return RedirectToAction("/Home/Error");
                 throw;
             }
 
